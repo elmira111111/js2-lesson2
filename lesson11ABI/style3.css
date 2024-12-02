@@ -1,0 +1,237 @@
+.container{
+    width: 1312px;
+    height: 70px;
+    margin: auto;
+    border: 1px solid dimgray;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+body{
+    background: #F0EBE1;
+}
+
+.imgsearch{
+    margin-bottom: -15px;
+}
+
+.logo img{
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+.logo h4{
+    width: 10px;
+}
+ .menu h5{
+    margin: 10px;
+}
+ .menu .api{
+     color: darkgray;
+ }
+
+.menu h5:hover{
+    cursor:pointer;
+    text-decoration: underline 2px;
+    border-radius: 5px;
+
+    color: coral;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 12px 24px 12px 24px;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.container2{
+    width: 1312px;
+    height: 1770px;
+    margin: auto;
+    border: 1px solid dimgray;
+    border-radius: 50px;
+    margin-top: 16px;
+    margin-bottom: 310px;
+}
+
+.container2{
+    div .recipe{
+        margin-left: 596px;
+        margin-top: 50px;
+        color: white;
+        background-color: coral;
+        border-radius: 30px;
+        padding: 8px 16px 8px 16px;
+        margin-right: 550px;
+        font-size: 16px;
+    }
+
+    .container3{
+        width: 1232px;
+        margin: auto;
+    }
+
+    h1{
+        margin-left: 310px;
+        font-size: 80px;
+        margin-top: 10px;
+        /*text-decoration: none;*/
+    }
+    img{
+        /*margin-left: 5px;*/
+        height: 640px;
+    }
+}
+
+h3{
+
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+p{
+    width: 560px;
+    height: 220px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22.4px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(51, 51, 51, 0.8);
+    span{
+        margin-top: 10px;
+    }
+
+}
+.image2{
+    width: 645px;
+    height: 580px;
+    border-radius: 24px;
+    border: 1px solid rgba(51, 51, 51, 0.4)
+}
+
+
+.ingredients {
+    position: absolute;
+    width: 428px;
+    height: 285px;
+    padding: 24px 16px 24px 16px;
+    gap: 16px;
+    border-radius: 24px;
+
+    background: rgba(255, 251, 242, 1);
+    margin-top: -740px;
+    left: 920px;
+    border: 1px solid rgba(38, 37, 34, 0.24);
+    h3 {
+        margin-top: -2px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        text-transform: uppercase;
+        color: rgba(238, 99, 82, 1);
+
+    }
+
+}
+.ingredient1{
+
+
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    width: 396px;
+    height: 203px;
+
+}
+.Measures{
+    width:428px;
+    height:193px;
+    padding: 24px 16px 24px 16px;
+    gap: 16px;
+    border-radius: 24px;
+    background: rgba(255, 251, 242, 1);
+    border: 1px solid rgba(38, 37, 34, 0.24);
+    margin-top: -390px;
+    margin-left: 780px;
+    h3{
+
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: rgba(238, 99, 82, 1);
+        width: 396px;
+        height: 18px;
+        margin-top: -3px;
+        text-transform: uppercase;
+        ul{
+            width: 396px;
+            height: 76px;
+
+            font-weight: 500;
+            line-height: 19.2px;
+            letter-spacing: 0.01em;
+            text-align: left;
+
+
+        }
+
+    }
+}
+
+.last {
+    margin-top: 312px;
+    width: 1313px;
+    height: 136px;
+    /*top: 2184px;*/
+    left: 63px;
+    padding: 0px 40px 24px 40px;
+    gap: 15px;
+    border-radius: 32px;
+    background-color: black;
+    color: white;
+    /*display: flex;justify-content:space-between;*/
+
+    .last-logo {
+        display: flex;
+        color: white;
+        width: 180px;
+        height: 35px;
+        gap: 8px;
+        padding: 34px 410px 20px 40px;
+
+    }
+}
+.last-menu{
+    color: white;
+    width: 128px;
+    height: 16px;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 33px;
+    margin-left:590px ;
+    a{
+        color: white;
+    }
+
+}
+.last-img {
+    margin-top: -50px;
+    margin-left: 1110px;
+    width: 104px;
+    height: 24px;
+}

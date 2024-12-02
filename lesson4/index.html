@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="list-group">
+  <ul></ul>
+</section>
+<form>
+  <label for="group_name">Group Name:</label>
+  <input type="text" id="group_name" name="group_name" placeholder="Введите название группы" required>
+
+  <label for="group_description">Group Description:</label>
+  <input type="text" id="group_description" name="group_description" placeholder="Введите описание группы" required>
+
+  <label for="direction">Direction:</label>
+  <select id="direction" name="direction" required>
+    <option value="FRONTEND">Frontend</option>
+    <option value="BACKEND">Backend</option>
+  </select>
+
+  <input type="submit" value="Submit">
+</form>
+
+<form action="" id="create_student">
+    <label >
+        <input type="text" name="first_name" placeholder="Enter student first name">
+    </label>
+    <label >
+        <input type="text" name="last_name" placeholder="Enter student last name">
+    </label>
+    <label >
+        <input type="number" name="age" placeholder="Enter student age">
+    </label>
+    <label >
+        <input type="text" name="phone_number" placeholder="Enter student phone number">
+    </label>
+    <label >
+        <input type="text" name="telegram" placeholder="Enter student telegram account">
+    </label>
+    <label >
+        <input type="url" name="photo" placeholder="Choose file">
+    </label>
+    <label >
+        <select name="" id="st-group" name="group"></select>
+    </label>
+</form>
+
+
+
+<script src="./app.js"></script>
+</body>
+</html>
